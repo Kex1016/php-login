@@ -33,20 +33,28 @@ function extractColor(string $msg): ?string
 </head>
 <body>
     <m3-app>
-        <h2>Bejelentkezés</h2>
-        <form method="post" action="">
-            <label>
-                Email:
-                <input type="email" name="username" required>
-            </label>
-            <br><br>
-            <label>
-                Jelszó:
-                <input type="password" name="password" required>
-            </label>
-            <br><br>
-            <button type="submit">Belépés</button>
-        </form>
+        <div class="container">
+            <div class="card">
+                <h2>Bejelentkezés</h2>
+                <form method="post" action="">
+                    <div class="form-control">
+                        <label>
+                            <span class="text">Email</span>
+                            <input type="email" name="username" required>
+                        </label>
+                    </div>
+                    <div class="form-control">
+                        <label>
+                            <span class="text">Jelszó</span>
+                            <input type="password" name="password" required>
+                        </label>
+                    </div>
+                    <div class="submit-button">
+                        <button type="submit">Belépés</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </m3-app>
     <script type="module" src="/scripts/app.module.js"></script>
 </body>
