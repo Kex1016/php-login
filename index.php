@@ -55,6 +55,9 @@ function extractColor(string $msg): ?string
                 </form>
             </div>
         </div>
+        <div id="msgModal" class="modal">
+            <div class="modal-content" id="modalBody"></div>
+        </div>
     </m3-app>
     <script type="module" src="/scripts/app.module.js"></script>
     <!-- Megint csak az a problema mint a RPS repoban, nem csinaltam meg rendesen az autogeneralt CSS feltolteset. -->
