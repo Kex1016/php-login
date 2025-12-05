@@ -30,7 +30,6 @@ function extractColor(string $msg): ?string
     <title>Bejelentkezés</title>
     <script type="module" src="/scripts/m3app.bundled.js"></script>
     <script type="module" src="/scripts/animation.module.js"></script>
-    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <m3-app>
@@ -58,5 +57,7 @@ function extractColor(string $msg): ?string
         </div>
     </m3-app>
     <script type="module" src="/scripts/app.module.js"></script>
+    <!-- Megint csak az a problema mint a RPS repoban, nem csinaltam meg rendesen az autogeneralt CSS feltolteset. -->
+    <link rel="stylesheet" href="/style.css">
 </body>
 </html>
