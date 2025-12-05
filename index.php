@@ -55,7 +55,7 @@ function extractColor(string $msg): ?string
                 </form>
             </div>
         </div>
-        <a href="https://github.com/Kex1016/php-login" class="button small primary">GitHub</a>
+        <a href="https://github.com/Kex1016/php-login" class="button small primary github">GitHub</a>
         <div id="msgModal" class="modal">
             <div class="modal-content card" id="modalBody"></div>
         </div>
