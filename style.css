@@ -246,3 +246,10 @@ a.xlarge {
 .form-control.error input {
     box-shadow: 0 0 0 3px #B00020;
 }
+
+h1 {
+    font-family: "Roboto Flex", sans-serif;
+	font-size: 10rem;
+	padding: 0 2rem;
+    text-align: center;
+}

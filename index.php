@@ -35,7 +35,7 @@ function extractColor(string $msg): ?string
     <m3-app>
         <div class="container">
             <div class="card">
-                <h2>Bejelentkezés</h2>
+                <h1>Bejelentkezés</h1>
                 <form method="post" action="">
                     <div class="form-control">
                         <label>
