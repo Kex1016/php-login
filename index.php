@@ -39,18 +39,18 @@ function extractColor(string $msg): ?string
                 <form method="post" action="">
                     <div class="form-control">
                         <label>
+                            <input type="email" name="username" placeholder="Email" required>
                             <span class="text">Email</span>
-                            <input type="email" name="username" required>
                         </label>
                     </div>
                     <div class="form-control">
                         <label>
+                            <input type="password" name="password" placeholder="Jelszó" required>
                             <span class="text">Jelszó</span>
-                            <input type="password" name="password" required>
                         </label>
                     </div>
                     <div class="submit-button">
-                        <button type="submit">Belépés</button>
+                        <button type="submit" class="button medium primary">Belépés</button>
                     </div>
                 </form>
             </div>
