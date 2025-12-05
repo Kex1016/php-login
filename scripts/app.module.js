@@ -1,20 +1,17 @@
+import { fadeSlide } from "./animation.module";
+
 const form = document.getElementById("loginForm");
 const modal = document.getElementById("msgModal");
 const modalBody = document.getElementById("modalBody");
 
-function showModal(text, bgColor = null) {
+async function showModal(text) {
 	modalBody.innerHTML = text;
-	if (bgColor) {
-		modalBody.style.backgroundColor = bgColor;
-		modalBody.style.color = "#000000ff";
-	} else {
-		modalBody.style.backgroundColor = "";
-		modalBody.style.color = "";
-	}
 	modal.style.display = "flex";
+    await fadeSlide(modalBody, "in", [0.27, 1.06, 0.18, 1.0], 350);
 }
 
-modal.addEventListener("click", () => {
+modal.addEventListener("click", async () => {
+    await fadeSlide(modalBody, "out", [0.27, 1.06, 0.18, 1.0], 350);
 	modal.style.display = "none";
 });
 
