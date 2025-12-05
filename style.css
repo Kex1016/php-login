@@ -267,6 +267,15 @@ a.xlarge {
 	box-shadow: var(--md-sys-elevation-2);
 }
 
+.github {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+
 h1 {
 	font-family: "Roboto Flex", sans-serif;
 	font-size: 5rem;
