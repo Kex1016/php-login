@@ -28,7 +28,7 @@ function extractColor(string $msg): ?string
 <head>
     <meta charset="UTF-8">
     <title>Bejelentkezés</title>
-    <script type="module" src="/scripts"></script>
+    <script type="module" src="/scripts/m3app.bundled.js"></script>
     <script type="module" src="/scripts/animation.module.js"></script>
 </head>
 <body>
@@ -48,6 +48,6 @@ function extractColor(string $msg): ?string
             <button type="submit">Belépés</button>
         </form>
     </m3-app>
-    <script type="module" src="/scripts/animation.module.js"></script>
+    <script type="module" src="/scripts/app.module.js"></script>
 </body>
 </html>
