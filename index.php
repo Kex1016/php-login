@@ -30,6 +30,7 @@ function extractColor(string $msg): ?string
     <title>Bejelentkezés</title>
     <script type="module" src="/scripts/m3app.bundled.js"></script>
     <script type="module" src="/scripts/animation.module.js"></script>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <m3-app>
