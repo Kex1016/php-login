@@ -1,4 +1,4 @@
-import { fadeSlide } from "/scripts/animation.module";
+import { fadeSlide } from "./animation.module";
 
 const form = document.getElementById("loginForm");
 const modal = document.getElementById("msgModal");
