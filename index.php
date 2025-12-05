@@ -56,7 +56,7 @@ function extractColor(string $msg): ?string
             </div>
         </div>
         <div id="msgModal" class="modal">
-            <div class="modal-content" id="modalBody"></div>
+            <div class="modal-content card" id="modalBody"></div>
         </div>
     </m3-app>
     <script type="module" src="/scripts/app.module.js"></script>
