@@ -36,7 +36,7 @@ function extractColor(string $msg): ?string
         <div class="container">
             <div class="card">
                 <h1>Bejelentkezés</h1>
-                <form method="post" action="">
+                <form method="post" action="" id="loginForm">
                     <div class="form-control">
                         <label>
                             <input type="email" name="username" placeholder="Email" required>
