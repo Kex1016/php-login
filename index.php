@@ -1,6 +1,5 @@
 <?php
-require_once 'functions.php';
-
+require_once 'config.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     header('Content-Type: application/json; charset=utf-8');
